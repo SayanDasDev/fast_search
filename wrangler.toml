@@ -1,0 +1,6 @@
+name: "fastsearch"
+compatibility_date: "2024-04-10"
+
+[vars]
+UPSTASH_REDIS_REST_URL = https://actual-goldfish-31641.upstash.io
+UPSTASH_REDIS_REST_TOKEN = 'AXuZASQgNTJhM2Q1MDYtMzE1Ni00Nzc5LWFiODEtNmEzMjA2YTk1YThhYzU2M2FjYTRiNjY5NGIzNGI4M2ViZTA0ZDNiOTkzM2I='
