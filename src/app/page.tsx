@@ -26,7 +26,7 @@ export default function Home() {
     const fetchData = async () => {
       if (!input) return setSearchResults(undefined);
 
-      const res = await fetch(`/api/search?q=${input}`);
+      const res = await fetch(`https://fastsearch.mesayan19.workers.dev/api/search?q=${input}`);
       const data = (await res.json()) as TSearch;
 
       setSearchResults(data);

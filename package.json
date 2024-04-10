@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "wrangler deploy --minify --name fastsearch src/app/api/[[...route]]/route.ts"
   },
   "dependencies": {
     "@upstash/redis": "^1.29.0",
